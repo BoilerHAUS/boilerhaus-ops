@@ -2,6 +2,8 @@
 
 This repository is the internal operating system for Boilerhaus.
 
+Private internal repository. Confidential and proprietary. No unauthorized use, copying, or distribution.
+
 It is the source of truth for the company setup, operating checklists, launch planning, and recurring review process that sit beside product development.
 
 Planning started in `ScopeHouse-Ops`. This repo now replaces it as the main internal home for Boilerhaus operations.
