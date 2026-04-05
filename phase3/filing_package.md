@@ -34,3 +34,4 @@ Post-filing (Phase 4 onward):
 Notes:
 - The exact authorized shares/par value should be finalized with the filing agent before submission.
 - Keep a single source of truth in /home/boilerrat/.openclaw/workspace/boilerhaus-ops/phase3
+\n- Final Articles CBCA v1: phase3/final_articles.md
