@@ -199,23 +199,51 @@ When building any UI component for Boilerhaus or ScopeHouse:
 ```text
 CLAUDE.md                              ← this file
 README.md                              ← repo overview and start-here links
-LICENSE
+CONTRIBUTING.md                        ← contribution guidelines
+LICENSE                                ← project license
 
 .github/
   ISSUE_TEMPLATE/
+    bug_report.md                      ← bug report template
     work-item.md                       ← standard issue template
+  PULL_REQUEST_TEMPLATE.md             ← PR description template
 
 docs/
   README.md                            ← docs index
+  agents/
+    technical-guardrails.md            ← AI agent workflow rules
+  architecture/
+    ARCHITECTURE.md                    ← system architecture overview
   github/
     workflow.md                        ← GitHub conventions
-    milestones.md                      ← five milestone definitions
-    issue-map.md                       ← full launch issue list with priority
+  incorporation/
+    phase2/
+      articles_of_incorporation.md     ← articles of incorporation
+      directors_officers.md            ← directors & officers registry
+      isc_disclosures.md               ← ISC disclosure documents
+      phase2_checklist.md              ← phase 2 filing checklist
+    phase3/
+      filing_package.md                ← phase 3 filing package
   operations/
+    DEVOPS-CI-CD.md                    ← CI/CD process guide
+    SECURITY.md                        ← security policy
+    weekly-business-metrics-review.md  ← weekly review template
+  policies/
+    CODE_OF_CONDUCT.md                 ← code of conduct
+    code-of-ethics.md                  ← code of ethics
+    MEMORY_POLICY.md                   ← agent memory handling rules
+    STYLE_GUIDE.md                     ← documentation style guide
+  runbooks/
+    INCIDENT_RESPONSE.md               ← incident response playbook
+    POSTMORTEM_TEMPLATE.md             ← postmortem template
+  strategy/
     business-stack.md                  ← tool shortlists and decision framework
     company-launch-checklist.md        ← launch readiness checklist
-    federal-incorporation-guide.md     ← federal filing guide
-    weekly-business-metrics-review.md  ← weekly review template
+    federal-incorporation-guide.md     ← federal incorporation guide
+    issue-map.md                       ← full launch issue list with priority
+    milestones.md                      ← five milestone definitions
+    mission.md                         ← company mission statement
+    ROADMAP.md                         ← product roadmap
 ```
 
 ---
@@ -234,7 +262,7 @@ See the design system issue in the GitHub issue backlog to track scope, phases, 
 
 - [Repo README](./README.md)
 - [Docs Index](./docs/README.md)
-- [Issue Map](./docs/github/issue-map.md)
-- [Milestones](./docs/github/milestones.md)
-- [Business Stack](./docs/operations/business-stack.md)
-- [Company Launch Checklist](./docs/operations/company-launch-checklist.md)
+- [Issue Map](./docs/strategy/issue-map.md)
+- [Milestones](./docs/strategy/milestones.md)
+- [Business Stack](./docs/strategy/business-stack.md)
+- [Company Launch Checklist](./docs/strategy/company-launch-checklist.md)
