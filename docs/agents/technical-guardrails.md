@@ -135,18 +135,19 @@
 ```
 docs/
   README.md              ← index of all documents
+  strategy/              ← mission, roadmap, business-stack, launch checklist
+  architecture/          ← system architecture overview
+  operations/            ← security, CI/CD, devops, weekly metrics
+  runbooks/              ← incident response, postmortem templates
   agents/
-    technical-guardrails.md   ← this file
-  github/
-    workflow.md
-    milestones.md
-  operations/
+    technical-guardrails.md   ← this file (canonical source of truth)
+  policies/              ← code of conduct, style guide, memory policy
 ```
 
 ### 6.2 Agent Configuration
 ```
 .hermes/
-  agent-guardrails.md    ← repo-specific agent rules (optional)
+  agent-guardrails.md    ← repo-specific agent rules (takes priority over canonical)
   config.yaml            ← agent configuration
 ```
 
