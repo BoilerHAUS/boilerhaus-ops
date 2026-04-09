@@ -2,31 +2,37 @@
 
 This folder is the documentation hub for Boilerhaus operations.
 
-Use this index as the starting point for company setup, launch planning, and GitHub workflow.
+## Strategy — the "what" and "why"
+- [Mission](./strategy/mission.md)
+- [Roadmap](./strategy/ROADMAP.md)
+- [Business Stack](./strategy/business-stack.md)
+- [Company Launch Checklist](./strategy/company-launch-checklist.md)
+- [Federal Incorporation Guide](./strategy/federal-incorporation-guide.md)
+- [Milestones](./strategy/milestones.md)
+- [Issue Map](./strategy/issue-map.md)
 
-## Start Here
+## Architecture — the "how it's built"
+- [Architecture Overview](./architecture/ARCHITECTURE.md)
 
-- [Business Stack](./operations/business-stack.md)
-- [Company Launch Checklist](./operations/company-launch-checklist.md)
-- [Federal Incorporation Guide](./operations/federal-incorporation-guide.md)
+## Operations — the "how we run"
 - [Weekly Business Metrics Review](./operations/weekly-business-metrics-review.md)
-- [Issue Map](./github/issue-map.md)
+- [Security Policy](./operations/SECURITY.md)
+- [CI/CD Process](./operations/DEVOPS-CI-CD.md)
 
-## Operations
+## Runbooks — incident response
+- [Incident Response](./runbooks/INCIDENT_RESPONSE.md)
+- [Postmortem Template](./runbooks/POSTMORTEM_TEMPLATE.md)
 
-- [Business Stack](./operations/business-stack.md)
-- [Company Launch Checklist](./operations/company-launch-checklist.md)
-- [Federal Incorporation Guide](./operations/federal-incorporation-guide.md)
-- [Weekly Business Metrics Review](./operations/weekly-business-metrics-review.md)
+## Agents — AI agent rules
+- [Technical Guardrails](./agents/technical-guardrails.md)
 
-## GitHub Workflow
-
-- [Workflow](./github/workflow.md)
-- [Milestones](./github/milestones.md)
-- [Issue Map](./github/issue-map.md)
+## Policies — governance and conduct
+- [Code of Conduct](./policies/CODE_OF_CONDUCT.md)
+- [Code of Ethics](./policies/code-of-ethics.md)
+- [Style Guide](./policies/STYLE_GUIDE.md)
+- [Memory Policy](./policies/MEMORY_POLICY.md)
 
 ## Conventions
-
 - keep docs short and specific
 - prefer one topic per file
 - update this index when new source-of-truth files are added
