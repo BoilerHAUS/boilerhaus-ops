@@ -61,3 +61,7 @@ docs/
 - [Company Launch Checklist](./docs/operations/company-launch-checklist.md)
 - [Federal Incorporation Guide](./docs/operations/federal-incorporation-guide.md)
 - [Issue Map](./docs/github/issue-map.md)
+
+## Agent Identity
+
+This repo is managed by Boiler-Jerry (GitHub App). All automated PRs come from the bot identity.
